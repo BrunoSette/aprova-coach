@@ -1,0 +1,15 @@
+h3 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 300;
+}
+
+p,
+h3,
+h1 {
+  text-align: center;
+}
+
+.padding-top-80 {
+  padding-top: 80px;
+}
