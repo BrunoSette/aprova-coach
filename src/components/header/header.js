@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../../logo.png';
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import ButtonAgendeSessao from '../buttonAgendeSessao/buttonAgendeSessao.js';
 
 function Header() {
@@ -15,11 +16,7 @@ function Header() {
       variant="light"
     >
       <Navbar.Brand href="#home">
-        <img
-          src={logo}
-          className="d-inline-block align-top"
-          alt="Aprova Coach"
-        />
+        <Image src={logo} fluid />
       </Navbar.Brand>
       <Container>
         <Navbar.Toggle />
@@ -31,7 +28,6 @@ function Header() {
             <Nav.Link href="#depoimentos">Depoimentos</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
           </Nav>
-
           <ButtonAgendeSessao />
         </Navbar.Collapse>
       </Container>
