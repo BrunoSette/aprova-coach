@@ -3,14 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ButtonAgendeSessao from '../buttonAgendeSessao/buttonAgendeSessao';
-import skype from '../../assets/images/skype.jpg';
+import Skype from '../../assets/images/skype.jpg';
+import Image from 'react-bootstrap/Image';
 
 export default class Agende extends Component {
   render() {
     return (
       <Container className="padding-top-80">
         <Row>
-          <Col>
+          <Col className="text-center">
             <h2 className="text-center padding-top-80">
               Agende sua primeira sessão experimental de Coaching Grátis Agora!
             </h2>
@@ -18,14 +19,10 @@ export default class Agende extends Component {
               Agende uma primeira sessão agora para nos conhecermos e juntos
               avaliarmos se o seu perfil se enquadra no trabalho proposto.
             </p>
-            <ButtonAgendeSessao className="text-center" />
+            <ButtonAgendeSessao />
           </Col>
           <Col>
-            <img
-              src={skype}
-              className="d-inline-block align-top"
-              alt="Aprova Coach"
-            />
+            <Image src={Skype} fluid />
           </Col>
         </Row>
       </Container>

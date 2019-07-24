@@ -8,7 +8,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 export default class Metodologia extends Component {
   render() {
     return (
-      <div id="vantagens" className="padding-top-80">
+      <div id="vantagens" className="padding-top-80 padding-bottom-20">
         <h1 className="text-center">
           Consultoria especializada que vai multiplicar suas chances de ser
           aprovado!

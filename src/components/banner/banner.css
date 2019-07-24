@@ -22,11 +22,3 @@
   line-height: 44px;
   font-weight: 300;
 }
-
-.container-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 1200px;
-}

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import Glaucia from '../../assets/images/glaucia.jpg';
+import Rene from '../../assets/images/rene.jpg';
 
 export default class Testimonials extends Component {
   render() {
@@ -21,8 +24,10 @@ export default class Testimonials extends Component {
                 tivesse feito pra Amazônia eu teria tirado em primeiro lugar,
                 mas vou aguardar que falaram que vão chamar. Muito obrigada.
               </p>
-              <p>Imagem</p>
-              <span>— Glaucia Medeiros, Acre</span>
+              <p>
+                <Image src={Glaucia} roundedCircle fluid />
+              </p>
+              <span>Glaucia Medeiros, Acre</span>
             </Col>
             <Col>
               <p>
@@ -34,8 +39,10 @@ export default class Testimonials extends Component {
                 passei a ter uma melhor disciplina com meus horários de
                 estudo.""
               </p>
-              <p>Imagem</p>
-              <span>- Rene Lacerda, Rio Grande do Sul</span>
+              <p>
+                <Image src={Rene} roundedCircle fluid />
+              </p>
+              <span>Rene Lacerda, Rio Grande do Sul</span>
             </Col>
           </Row>
         </Container>

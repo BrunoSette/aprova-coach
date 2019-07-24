@@ -11,7 +11,10 @@ import './fazemos.css';
 export default class Fazemos extends Component {
   render() {
     return (
-      <div className="background-gray padding-top-80" id="fazemos">
+      <div
+        className="background-gray padding-top-80 padding-bottom-20"
+        id="fazemos"
+      >
         <h1>Você não está sozinho nessa caminhada.</h1>
         <h3>Estarei ao seu lado te orientando em como ser aprovado...</h3>
         <Container className="padding-top-80">

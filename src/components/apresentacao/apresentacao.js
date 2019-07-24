@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Diana from '../../assets/images/diana.jpg';
+import Image from 'react-bootstrap/Image';
 
 export default class Apresentacao extends Component {
   render() {
@@ -11,11 +12,7 @@ export default class Apresentacao extends Component {
         <Container className="padding-top-80">
           <Row>
             <Col>
-              <img
-                src={Diana}
-                className="d-inline-block align-top"
-                alt="Aprova Coach"
-              />
+              <Image src={Diana} fluid />
             </Col>
             <Col>
               <h3>Coach Diana Sette</h3>
