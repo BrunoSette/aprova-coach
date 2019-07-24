@@ -20,7 +20,6 @@ function App() {
       <Metodologia />
       <Agende />
       <Apresentacao />
-      <Vantagens />
       <TestimonialsVideos />
       <Testimonials />
       <Contact />

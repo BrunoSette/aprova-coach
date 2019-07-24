@@ -11,7 +11,6 @@ import {
   faTachometerAlt,
   faBookOpen
 } from '@fortawesome/free-solid-svg-icons';
-import Image from 'react-bootstrap/Image';
 
 export default class Metodologia extends Component {
   render() {
