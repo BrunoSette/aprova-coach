@@ -7,7 +7,7 @@ import Diana from '../../assets/images/diana.jpg';
 export default class Apresentacao extends Component {
   render() {
     return (
-      <div>
+      <div id="quemsou" className="background-gray padding-bottom-40">
         <Container className="padding-top-80">
           <Row>
             <Col>

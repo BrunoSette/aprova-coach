@@ -3,9 +3,11 @@ import Button from 'react-bootstrap/Button';
 
 function ButtonAgendeSessao() {
   return (
-    <Button variant="danger" size="lg">
-      Agende Sessão Grátis!
-    </Button>
+    <div className="text-align: center">
+      <Button variant="danger" size="lg">
+        Agende Sessão Grátis!
+      </Button>
+    </div>
   );
 }
 

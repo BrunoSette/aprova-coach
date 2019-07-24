@@ -1,7 +1,22 @@
 import React, { Component } from 'react';
+import ButtonAgendeSessao from '../buttonAgendeSessao/buttonAgendeSessao';
+import WhatsappImage from '../../assets/images/whatsapp-button.png';
 
 export default class Contact extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div
+        id="contato"
+        className="padding-top-80 background-gray text-center padding-bottom-40"
+      >
+        <h1>Entre em Contato Comigo Agora!</h1>
+        <a href="https://wa.me/5581988668342?text=Olá%20Diana!%20Gostaria%20de%20saber%20mais%20sobre%20Coaching!">
+          <img src={WhatsappImage} alt="Whatsapp Coach"></img>
+        </a>
+
+        <h1>Ou</h1>
+        <ButtonAgendeSessao />
+      </div>
+    );
   }
 }
