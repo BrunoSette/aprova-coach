@@ -5,7 +5,6 @@ import Fazemos from './components/fazemos/fazemos';
 import Metodologia from './components/metodologia/metodologia';
 import Agende from './components/agende/agende';
 import Apresentacao from './components/apresentacao/apresentacao';
-import Vantagens from './components/vantagens/vantagens';
 import TestimonialsVideos from './components/testimonialsVideos/testimonialsVideos';
 import Testimonials from './components/testimonials/testimonials';
 import Contact from './components/contact/contact';
