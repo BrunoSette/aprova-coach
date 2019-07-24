@@ -3,7 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import {
+  faUserCheck,
+  faCalendarDay,
+  faBullseye,
+  faTrophy,
+  faTachometerAlt,
+  faBookOpen
+} from '@fortawesome/free-solid-svg-icons';
 import Image from 'react-bootstrap/Image';
 
 export default class Metodologia extends Component {
@@ -17,8 +24,8 @@ export default class Metodologia extends Component {
         <h3>Metodologia utilizada no processo:</h3>
         <Container className="padding-top-80">
           <Row>
-            <Col>
-              <FontAwesomeIcon icon={faCoffee} size="6x" />
+            <Col className="text-center">
+              <FontAwesomeIcon icon={faBookOpen} color="red" size="4x" />
               <h2 className="text-center">Criação das Suas Metas</h2>
               <p>
                 Sem meta dificilmente chega-se a algum lugar. Todo candidato a
@@ -27,8 +34,8 @@ export default class Metodologia extends Component {
                 atenção e o seu objetivo aparecerão.
               </p>
             </Col>
-            <Col>
-              <FontAwesomeIcon icon={faCoffee} size="6x" />
+            <Col className="text-center">
+              <FontAwesomeIcon icon={faCalendarDay} color="red" size="4x" />
               <h2 className="text-center">
                 Criação do Seu Cronograma de Estudos
               </h2>
@@ -38,8 +45,8 @@ export default class Metodologia extends Component {
                 desviam do seu caminho.
               </p>
             </Col>
-            <Col>
-              <FontAwesomeIcon icon={faCoffee} size="6x" />
+            <Col className="text-center">
+              <FontAwesomeIcon icon={faUserCheck} color="red" size="4x" />
               <h2 className="text-center">Acompanhamento Individualizado</h2>
               <p>
                 Que tal ter uma ajudinha especializada para te ajudar a
@@ -51,8 +58,8 @@ export default class Metodologia extends Component {
             </Col>
           </Row>
           <Row>
-            <Col>
-              <FontAwesomeIcon icon={faCoffee} size="6x" />
+            <Col className="text-center">
+              <FontAwesomeIcon icon={faTachometerAlt} color="red" size="4x" />
               <h2 className="text-center">Monitore Sua Performance</h2>
               <p>
                 Estaremos juntos verificando sua evolução nos estudos de cada
@@ -60,8 +67,8 @@ export default class Metodologia extends Component {
                 excelência no seu aproveitamento.
               </p>
             </Col>
-            <Col>
-              <FontAwesomeIcon icon={faCoffee} size="6x" />
+            <Col className="text-center">
+              <FontAwesomeIcon icon={faTrophy} color="red" size="4x" />
               <h2 className="text-center">Mais Motivação e Confiança</h2>
               <p>
                 Estarei ao seu lado para te motivar e mostrar que com esforço
@@ -70,12 +77,8 @@ export default class Metodologia extends Component {
                 Tranquilidade e confiança são os dois objetivos que atingiremos.
               </p>
             </Col>
-            <Col>
-              <FontAwesomeIcon
-                icon={faCoffee}
-                className="text-center"
-                size="6x"
-              />
+            <Col className="text-center">
+              <FontAwesomeIcon icon={faBullseye} color="red" size="4x" />
               <h2 className="text-center">Preparação Objetiva</h2>
               <p>
                 Vamos discutir várias formas de aprendizagem de conteúdo e
