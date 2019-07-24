@@ -16,29 +16,28 @@ export default class Testimonials extends Component {
         <Container className="padding-top-80 text-center">
           <Row>
             <Col>
-              <p>
+              <h5>
                 "Quero gradecer você pelo incentivo que me deste para concurso
                 do INSS, me superei em português que era o meu calo rsrsr. Das
                 14 questões acertei 10 errei 1 e deixei 3 em brando. Fiquei em
                 11° pra mim, foi uma superação agradeço de coração mesmo se eu
                 tivesse feito pra Amazônia eu teria tirado em primeiro lugar,
-                mas vou aguardar que falaram que vão chamar. Muito obrigada.
-              </p>
+                mas vou aguardar que falaram que vão chamar. Muito obrigada."
+              </h5>
               <p>
                 <Image src={Glaucia} roundedCircle fluid />
               </p>
               <span>Glaucia Medeiros, Acre</span>
             </Col>
             <Col>
-              <p>
+              <h5>
                 "Eu estudava sem foco, com pouca concentração e desmotivado.
                 Além de muito disperso pois não tinha um plano de estudos.
                 Depois de iniciar a consultoria essas dificuldades desapareceram
                 pois criamos uma agenda de estudos e analisamos as estatísticas
                 dos exames anteriores. Daí cresceu bastante a minha confiança e
-                passei a ter uma melhor disciplina com meus horários de
-                estudo.""
-              </p>
+                passei a ter uma melhor disciplina com meus horários de estudo."
+              </h5>
               <p>
                 <Image src={Rene} roundedCircle fluid />
               </p>
