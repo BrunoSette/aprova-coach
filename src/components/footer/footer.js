@@ -24,7 +24,10 @@ function Footer() {
         </Row>
         <Row>
           <Col className="text-center">
-            <sub>© Copyright 2019 Todos os Direitos Reservados</sub>
+            <sub>
+              © Copyright {new Date().getFullYear()} Todos os Direitos
+              Reservados
+            </sub>
           </Col>
         </Row>
       </Container>
