@@ -2,16 +2,31 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ReactPlayer from 'react-player';
+import YouTube from 'react-youtube';
 
 export default class TestimonialsVideos extends Component {
   render() {
+    const opts = {
+      height: '390',
+      width: '640',
+      playerVars: {
+        // https://developers.google.com/youtube/player_parameters
+        rel: 0,
+        modestbranding: 1,
+        showinfo: 0,
+        enablejsapi: 1
+      }
+    };
     return (
       <div className="background-gray" id="depoimentos">
         <Container className="padding-top-80">
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/IsH7iZRsz2U?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="IsH7iZRsz2U"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento Alexandre</h2>
@@ -28,7 +43,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/lwgndPWhZHE?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="lwgndPWhZHE"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento Luciana Beltrão</h2>
@@ -43,7 +62,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/IK0Y5Uxa44Y?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="IK0Y5Uxa44Y"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Aprovada no Exame da Ordem</h2>
@@ -61,7 +84,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/emd5emE1WXM?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="emd5emE1WXM"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento de Fabiana</h2>
@@ -74,9 +101,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              {' '}
-              https://youtu.be/6ny4ewpzNxs
-              <ReactPlayer url="https://www.youtube.com/embed/6ny4ewpzNxs?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="6ny4ewpzNxs"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Aprovada na Primeira Fase do Exame da Ordem</h2>
@@ -95,7 +124,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/k4BRUdHq8cA?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="k4BRUdHq8cA"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Aprovada na Primeira Fase do Exame da Ordem</h2>
@@ -109,7 +142,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/dgQBserqcLE?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="dgQBserqcLE"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento de Vanessa</h2>
@@ -123,7 +160,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://youtu.be/rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="dgQBserqcLE"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento de Maria Ivone</h2>
@@ -137,7 +178,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="dgQBserqcLE"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento de Alessandra Castro</h2>
@@ -152,7 +197,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="dgQBserqcLE"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento de Ana Elisa</h2>
@@ -167,7 +216,11 @@ export default class TestimonialsVideos extends Component {
           </Row>
           <Row>
             <Col>
-              <ReactPlayer url="https://www.youtube.com/embed/?rel=0&modestbranding=1&showinfo=0&enablejsapi=1" />
+              <YouTube
+                videoId="dgQBserqcLE"
+                opts={opts}
+                onReady={this._onReady}
+              />
             </Col>
             <Col>
               <h2>Depoimento de Alessandra Castro</h2>
