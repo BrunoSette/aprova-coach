@@ -20,7 +20,7 @@ export default class Fazemos extends Component {
         <Container className="padding-top-80">
           <Row>
             <Col>
-              <Card style={{ width: '20rem' }}>
+              <Card>
                 <Card.Img variant="top" src={img1} />
                 <Card.Body>
                   <Card.Title className="text-center">
@@ -39,7 +39,7 @@ export default class Fazemos extends Component {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: '20rem' }}>
+              <Card>
                 <Card.Img variant="top" src={img2} />
                 <Card.Body>
                   <Card.Title className="text-center">
@@ -56,7 +56,7 @@ export default class Fazemos extends Component {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: '20rem' }}>
+              <Card>
                 <Card.Img variant="top" src={img3} />
                 <Card.Body className="text-center">
                   <Card.Title className="text-center">
