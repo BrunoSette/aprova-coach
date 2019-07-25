@@ -12,7 +12,7 @@ export default class Contact extends Component {
       >
         <h1>Entre em Contato Comigo Agora!</h1>
         <a href="https://wa.me/5581988668342?text=Olá%20Diana!%20Gostaria%20de%20saber%20mais%20sobre%20Coaching!">
-          <Image src={WhatsappImage} fluid />
+          <Image src={WhatsappImage} alt="Whatsapp" fluid />
         </a>
 
         <h1>Ou</h1>
