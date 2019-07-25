@@ -25,7 +25,7 @@ export default class Testimonials extends Component {
                 mas vou aguardar que falaram que vão chamar. Muito obrigada."
               </h5>
               <p>
-                <Image src={Glaucia} roundedCircle fluid />
+                <Image src={Glaucia} alt="Glaucia" roundedCircle fluid />
               </p>
               <span>Glaucia Medeiros, Acre</span>
             </Col>
@@ -39,7 +39,7 @@ export default class Testimonials extends Component {
                 passei a ter uma melhor disciplina com meus horários de estudo."
               </h5>
               <p>
-                <Image src={Rene} roundedCircle fluid />
+                <Image src={Rene} alt="Rene" roundedCircle fluid />
               </p>
               <span>Rene Lacerda, Rio Grande do Sul</span>
             </Col>

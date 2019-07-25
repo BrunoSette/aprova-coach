@@ -22,7 +22,7 @@ export default class Agende extends Component {
             <ButtonAgendeSessao />
           </Col>
           <Col>
-            <Image src={Skype} fluid />
+            <Image src={Skype} alt="Skype" fluid />
           </Col>
         </Row>
       </Container>

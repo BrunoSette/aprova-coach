@@ -21,7 +21,7 @@ export default class Fazemos extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Img variant="top" src={img1} />
+                <Card.Img variant="top" src={img1} alt="sucesso" />
                 <Card.Body>
                   <Card.Title className="text-center">
                     Maximize Seus Resultados
@@ -40,7 +40,7 @@ export default class Fazemos extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src={img2} />
+                <Card.Img variant="top" src={img2} alt="Mulher" />
                 <Card.Body>
                   <Card.Title className="text-center">
                     Atendimento Individualizado Com Uma Coach para Concursos
@@ -57,7 +57,7 @@ export default class Fazemos extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src={img3} />
+                <Card.Img variant="top" src={img3} alt="caneta" />
                 <Card.Body className="text-center">
                   <Card.Title className="text-center">
                     Motivação Extra

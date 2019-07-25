@@ -16,7 +16,7 @@ function Header() {
       variant="light"
     >
       <Navbar.Brand href="/">
-        <Image src={logo} fluid />
+        <Image src={logo} alt="Aprova Coach" fluid />
       </Navbar.Brand>
       <Container>
         <Navbar.Toggle />

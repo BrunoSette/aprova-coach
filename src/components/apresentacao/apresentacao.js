@@ -12,7 +12,7 @@ export default class Apresentacao extends Component {
         <Container className="padding-top-80">
           <Row>
             <Col>
-              <Image src={Diana} fluid />
+              <Image src={Diana} alt="Diana Sette" fluid />
             </Col>
             <Col>
               <h3>Coach Diana Sette</h3>
