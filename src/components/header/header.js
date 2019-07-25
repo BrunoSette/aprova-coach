@@ -15,7 +15,7 @@ function Header() {
       sticky="top"
       variant="light"
     >
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <Image src={logo} fluid />
       </Navbar.Brand>
       <Container>
