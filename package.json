@@ -56,6 +56,12 @@
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^24.8.0",
-    "babel-plugin-styled-components": "^1.10.6"
+    "babel-plugin-styled-components": "^1.10.6" 
+  },
+  "jest": {
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.jsx?$": "babel-jest"
+    }
   }
 }
