@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`agendamento snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`agende snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`apresentacao snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`banner snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`buttonAgendeSessao snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`contact snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`fazemos snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`footer snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`header snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
 exports[`header snapshot should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
@@ -1011,3 +1029,9 @@ ShallowWrapper {
   Symbol(enzyme.__providerValues__): Map {},
 }
 `;
+
+exports[`metodologia snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`testimonial videos snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`testimonials snapshot renderered correctly 1`] = `ShallowWrapper {}`;
