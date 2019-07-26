@@ -1,25 +1,709 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`agendamento snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`agendamento snapshot renderered correctly 1`] = `
+<div>
+  <iframe
+    allowtransparency="true"
+    height="1000px"
+    src="https://dianasette.youcanbook.me/"
+    title="youcanbookme"
+    width="100%"
+  />
+</div>
+`;
 
-exports[`agende snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`agende snapshot renderered correctly 1`] = `
+<Container
+  className="padding-top-80"
+  fluid={false}
+>
+  <Bootstrap(Row)>
+    <Col
+      className="text-center"
+    >
+      <h2
+        className="text-center padding-top-80"
+      >
+        Agende sua primeira sessão experimental de Coaching Grátis Agora!
+      </h2>
+      <p
+        className="text-center"
+      >
+        Agende uma primeira sessão agora para nos conhecermos e juntos avaliarmos se o seu perfil se enquadra no trabalho proposto.
+      </p>
+      <ButtonAgendeSessao />
+    </Col>
+    <Col>
+      <Bootstrap(Image)
+        alt="Skype"
+        fluid={true}
+        src=""
+      />
+    </Col>
+  </Bootstrap(Row)>
+</Container>
+`;
 
-exports[`apresentacao snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`apresentacao snapshot renderered correctly 1`] = `
+<div
+  className="background-gray padding-bottom-40"
+  id="quemsou"
+>
+  <Container
+    className="padding-top-80"
+    fluid={false}
+  >
+    <Bootstrap(Row)>
+      <Col>
+        <Bootstrap(Image)
+          alt="Diana Sette"
+          fluid={true}
+          src=""
+        />
+      </Col>
+      <Col>
+        <h3>
+          Coach Diana Sette
+        </h3>
+        <p>
+          Diana Sette é Professional Coach Certificada pela Sociedade Latino Americana de Coach, Consultora especialista em aprovação em provas e concursos. Formada em Ciências Econômicas pela UFPE e com MBA em Desenvolvimento Regional Sustentável pela UFLA.
+        </p>
+        <p>
+          Aprovada na Caixa Econômica Federal em 2006, onde trabalhou por quatro anos. Desta experiência iniciou sua trajetória de trabalho na área de técnicas e motivação para o estudo, onde vem desenvolvendo suas competências.
+        </p>
+        <p>
+          Professional Coach e Consultora, vem ajudando milhares de pessoas a serem aprovadas em Concursos Públicos e no Exame da OAB nos últimos 10 anos. Responsável pela área de produtividade nos estudos das empresas: ProvasdaOAB, ProvasDirecionadas e Estudando Online.
+        </p>
+      </Col>
+    </Bootstrap(Row)>
+  </Container>
+</div>
+`;
 
-exports[`banner snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`banner snapshot renderered correctly 1`] = `
+<div>
+  <div
+    className="banner"
+  >
+    <h1
+      className="header"
+    >
+      Sua Coach Para Concursos
+    </h1>
+    <h4
+      className="subheader"
+    >
+      Maximize o Resultado dos Seus Estudos
+    </h4>
+  </div>
+</div>
+`;
 
-exports[`buttonAgendeSessao snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`buttonAgendeSessao snapshot renderered correctly 1`] = `
+<div
+  className="text-align: center"
+>
+  <Link
+    target="_blank"
+    to="/agendamento"
+  >
+    <Button
+      active={false}
+      disabled={false}
+      size="lg"
+      type="button"
+      variant="danger"
+    >
+      Agende Sessão Grátis!
+    </Button>
+  </Link>
+</div>
+`;
 
-exports[`contact snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`contact snapshot renderered correctly 1`] = `
+<div
+  className="padding-top-80 background-gray text-center padding-bottom-40"
+  id="contato"
+>
+  <h1>
+    Entre em Contato Comigo Agora!
+  </h1>
+  <a
+    href="https://wa.me/5581988668342?text=Olá%20Diana!%20Gostaria%20de%20saber%20mais%20sobre%20Coaching!"
+  >
+    <Bootstrap(Image)
+      alt="Whatsapp"
+      fluid={true}
+      src=""
+    />
+  </a>
+  <h1>
+    Ou
+  </h1>
+  <ButtonAgendeSessao />
+</div>
+`;
 
-exports[`fazemos snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`fazemos snapshot renderered correctly 1`] = `
+<div
+  className="background-gray padding-top-80 padding-bottom-20"
+  id="fazemos"
+>
+  <h1>
+    Você não está sozinho nessa caminhada.
+  </h1>
+  <h3>
+    Estarei ao seu lado te orientando em como ser aprovado...
+  </h3>
+  <Container
+    className="padding-top-80"
+    fluid={false}
+  >
+    <Bootstrap(Row)>
+      <Col>
+        <Card
+          body={false}
+        >
+          <CardImg
+            alt="sucesso"
+            src=""
+            variant="top"
+          />
+          <CardBody>
+            <CardTitle
+              className="text-center"
+            >
+              Maximize Seus Resultados
+            </CardTitle>
+            <CardText>
+              A forma como estudamos é muito importante e pode ser o diferencial para a aprovação. Estudar é sempre bom, mas com as metodologias específicas você pode ficar mais eficiente e isto te ajudará a atingir o seu pleno potencial.Trabalharemos de forma individualizada e buscando aproveitar plenamente o seu tempo disponível para estudo com metas factíveis e um calendário bem organizado.
+            </CardText>
+          </CardBody>
+        </Card>
+      </Col>
+      <Col>
+        <Card
+          body={false}
+        >
+          <CardImg
+            alt="Mulher"
+            src=""
+            variant="top"
+          />
+          <CardBody>
+            <CardTitle
+              className="text-center"
+            >
+              Atendimento Individualizado Com Uma Coach para Concursos
+            </CardTitle>
+            <CardText>
+              Você será atendido de forma individualizada com dicas e instruções personalizadas. Adaptaremos as sessões de 40 min de duração a sua rotina e de forma particular te atenderei via Skype, FaceTime ou outro meio que você julgar mais adequado
+            </CardText>
+          </CardBody>
+        </Card>
+      </Col>
+      <Col>
+        <Card
+          body={false}
+        >
+          <CardImg
+            alt="caneta"
+            src=""
+            variant="top"
+          />
+          <CardBody
+            className="text-center"
+          >
+            <CardTitle
+              className="text-center"
+            >
+              Motivação Extra
+            </CardTitle>
+            <CardText>
+              Juntos buscaremos a forma mais adequada que se encaixe na sua rotina e que leve em consideração os seus limites. Buscaremos juntos uma fórmula para que o seu estudo traga um excelente resultado, ou seja, a sua aprovação no Concurso desejado. Estarei ao seu lado te motivando, cobrado e readaptando todo o seu cronograma que traçaremos juntos.
+            </CardText>
+          </CardBody>
+        </Card>
+      </Col>
+    </Bootstrap(Row)>
+  </Container>
+</div>
+`;
 
-exports[`footer snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`footer snapshot renderered correctly 1`] = `
+<div
+  className="padding-top-80 text-white background-dark padding-bottom-40"
+>
+  <Container
+    fluid={false}
+  >
+    <Bootstrap(Row)>
+      <Col>
+        Facebook
+      </Col>
+      <Col>
+        Instagram
+      </Col>
+      <Col>
+        Youtube
+      </Col>
+    </Bootstrap(Row)>
+    <Bootstrap(Row)
+      className="padding-top-40"
+    >
+      <Col
+        className="text-center"
+      >
+        <img
+          alt="Aprova Coach"
+          className="d-inline-block align-top text-center"
+          src=""
+        />
+      </Col>
+    </Bootstrap(Row)>
+    <Bootstrap(Row)>
+      <Col
+        className="text-center"
+      >
+        <sub>
+          © Copyright 
+          2019
+           Todos os Direitos Reservados
+        </sub>
+      </Col>
+    </Bootstrap(Row)>
+  </Container>
+</div>
+`;
 
-exports[`header snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`header snapshot renderered correctly 1`] = `
+<Bootstrap(undefined)
+  bg="light"
+  collapseOnSelect={true}
+  expand="lg"
+  sticky="top"
+  variant="light"
+>
+  <NavbarBrand
+    href="/"
+  >
+    <Bootstrap(Image)
+      alt="Aprova Coach"
+      fluid={true}
+      src=""
+    />
+  </NavbarBrand>
+  <Container
+    fluid={false}
+  >
+    <NavbarToggle
+      label="Toggle navigation"
+    />
+    <NavbarCollapse>
+      <Nav
+        className="mr-auto"
+        fill={false}
+        justify={false}
+      >
+        <NavLink
+          as={[Function]}
+          disabled={false}
+          href="#fazemos"
+        >
+          O que Fazemos
+        </NavLink>
+        <NavLink
+          as={[Function]}
+          disabled={false}
+          href="#vantagens"
+        >
+          Vantagens
+        </NavLink>
+        <NavLink
+          as={[Function]}
+          disabled={false}
+          href="#quemsou"
+        >
+          Quem Sou
+        </NavLink>
+        <NavLink
+          as={[Function]}
+          disabled={false}
+          href="#depoimentos"
+        >
+          Depoimentos
+        </NavLink>
+        <NavLink
+          as={[Function]}
+          disabled={false}
+          href="#contato"
+        >
+          Contato
+        </NavLink>
+      </Nav>
+      <ButtonAgendeSessao />
+    </NavbarCollapse>
+  </Container>
+</Bootstrap(undefined)>
+`;
 
-exports[`metodologia snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`metodologia snapshot renderered correctly 1`] = `
+<div
+  className="padding-top-80 padding-bottom-20"
+  id="vantagens"
+>
+  <h1
+    className="text-center"
+  >
+    Consultoria especializada que vai multiplicar suas chances de ser aprovado!
+  </h1>
+  <h3>
+    Metodologia utilizada no processo:
+  </h3>
+  <Container
+    className="padding-top-80"
+    fluid={false}
+  >
+    <Bootstrap(Row)>
+      <Col
+        className="text-center"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          color="red"
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                576,
+                512,
+                Array [],
+                "f518",
+                "M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z",
+              ],
+              "iconName": "book-open",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="4x"
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+        <h2
+          className="text-center"
+        >
+          Criação das Suas Metas
+        </h2>
+        <p>
+          Sem meta dificilmente chega-se a algum lugar. Todo candidato a um Concurso precisa ter bem definido o objetivo a ser alcançado, pois no meio do caminho muitos fatores para desviar a sua atenção e o seu objetivo aparecerão.
+        </p>
+      </Col>
+      <Col
+        className="text-center"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          color="red"
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                448,
+                512,
+                Array [],
+                "f783",
+                "M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-96zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z",
+              ],
+              "iconName": "calendar-day",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="4x"
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+        <h2
+          className="text-center"
+        >
+          Criação do Seu Cronograma de Estudos
+        </h2>
+        <p>
+          Desta forma você consegue acompanhar seu desempenho e saber exatamente quando deve retornar de possíveis fatores que te desviam do seu caminho.
+        </p>
+      </Col>
+      <Col
+        className="text-center"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          color="red"
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                640,
+                512,
+                Array [],
+                "f4fc",
+                "M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zm323-128.4l-27.8-28.1c-4.6-4.7-12.1-4.7-16.8-.1l-104.8 104-45.5-45.8c-4.6-4.7-12.1-4.7-16.8-.1l-28.1 27.9c-4.7 4.6-4.7 12.1-.1 16.8l81.7 82.3c4.6 4.7 12.1 4.7 16.8.1l141.3-140.2c4.6-4.7 4.7-12.2.1-16.8z",
+              ],
+              "iconName": "user-check",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="4x"
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+        <h2
+          className="text-center"
+        >
+          Acompanhamento Individualizado
+        </h2>
+        <p>
+          Que tal ter uma ajudinha especializada para te ajudar a organizar as matérias e os seus horários disponíveis? Que tal ter uma pessoa acompanhando semanalmente se as suas metas estão sendo atingidas e como reorganizar o seu tempo para que isso seja possível? Pois bem, essa pessoa sou eu :)
+        </p>
+      </Col>
+    </Bootstrap(Row)>
+    <Bootstrap(Row)>
+      <Col
+        className="text-center"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          color="red"
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                576,
+                512,
+                Array [],
+                "f3fd",
+                "M288 32C128.94 32 0 160.94 0 320c0 52.8 14.25 102.26 39.06 144.8 5.61 9.62 16.3 15.2 27.44 15.2h443c11.14 0 21.83-5.58 27.44-15.2C561.75 422.26 576 372.8 576 320c0-159.06-128.94-288-288-288zm0 64c14.71 0 26.58 10.13 30.32 23.65-1.11 2.26-2.64 4.23-3.45 6.67l-9.22 27.67c-5.13 3.49-10.97 6.01-17.64 6.01-17.67 0-32-14.33-32-32S270.33 96 288 96zM96 384c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm48-160c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm246.77-72.41l-61.33 184C343.13 347.33 352 364.54 352 384c0 11.72-3.38 22.55-8.88 32H232.88c-5.5-9.45-8.88-20.28-8.88-32 0-33.94 26.5-61.43 59.9-63.59l61.34-184.01c4.17-12.56 17.73-19.45 30.36-15.17 12.57 4.19 19.35 17.79 15.17 30.36zm14.66 57.2l15.52-46.55c3.47-1.29 7.13-2.23 11.05-2.23 17.67 0 32 14.33 32 32s-14.33 32-32 32c-11.38-.01-20.89-6.28-26.57-15.22zM480 384c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z",
+              ],
+              "iconName": "tachometer-alt",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="4x"
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+        <h2
+          className="text-center"
+        >
+          Monitore Sua Performance
+        </h2>
+        <p>
+          Estaremos juntos verificando sua evolução nos estudos de cada matéria e medindo semanalmente o seu desempenho para buscarmos a excelência no seu aproveitamento.
+        </p>
+      </Col>
+      <Col
+        className="text-center"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          color="red"
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                576,
+                512,
+                Array [],
+                "f091",
+                "M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z",
+              ],
+              "iconName": "trophy",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="4x"
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+        <h2
+          className="text-center"
+        >
+          Mais Motivação e Confiança
+        </h2>
+        <p>
+          Estarei ao seu lado para te motivar e mostrar que com esforço conseguimos atingir os nossos objetivos. Vou te ajudar a confiar em si mesmo, pois assim facilitará todo o processo. Tranquilidade e confiança são os dois objetivos que atingiremos.
+        </p>
+      </Col>
+      <Col
+        className="text-center"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          color="red"
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                496,
+                512,
+                Array [],
+                "f140",
+                "M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 432c-101.69 0-184-82.29-184-184 0-101.69 82.29-184 184-184 101.69 0 184 82.29 184 184 0 101.69-82.29 184-184 184zm0-312c-70.69 0-128 57.31-128 128s57.31 128 128 128 128-57.31 128-128-57.31-128-128-128zm0 192c-35.29 0-64-28.71-64-64s28.71-64 64-64 64 28.71 64 64-28.71 64-64 64z",
+              ],
+              "iconName": "bullseye",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="4x"
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+        <h2
+          className="text-center"
+        >
+          Preparação Objetiva
+        </h2>
+        <p>
+          Vamos discutir várias formas de aprendizagem de conteúdo e definir quais delas se enquadram melhor a sua rotina de estudo. Faremos uma combinação de metodologias para que seu estudo seja objetivo e direcionado ao edital do seu Concurso.
+        </p>
+      </Col>
+    </Bootstrap(Row)>
+  </Container>
+</div>
+`;
 
-exports[`testimonial videos snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`testimonial videos snapshot renderered correctly 1`] = `
+<div
+  className="background-gray"
+  id="depoimentos"
+>
+  <Container
+    className="padding-top-40 padding-bottom-40"
+    fluid={false}
+  >
+    <Bootstrap(Row)>
+      <Col>
+        <div
+          className="embed-responsive embed-responsive-16by9"
+        >
+          <iframe
+            allowfullscreen={true}
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/videoseries?list=PLPScevBERCaSGDdV7xdgecdDIu4YlVp4I&controls=0&showinfo=0"
+            title="youtube"
+          />
+        </div>
+      </Col>
+    </Bootstrap(Row)>
+  </Container>
+</div>
+`;
 
-exports[`testimonials snapshot renderered correctly 1`] = `ShallowWrapper {}`;
+exports[`testimonials snapshot renderered correctly 1`] = `
+<div
+  className="background-dark padding-bottom-40 text-white"
+>
+  <h2
+    className="text-center padding-top-80"
+  >
+    OUÇA O QUE OS MEUS ALUNOS TÊM A DIZER:
+  </h2>
+  <Container
+    className="padding-top-80 text-center"
+    fluid={false}
+  >
+    <Bootstrap(Row)>
+      <Col>
+        <h5>
+          "Quero gradecer você pelo incentivo que me deste para concurso do INSS, me superei em português que era o meu calo rsrsr. Das 14 questões acertei 10 errei 1 e deixei 3 em brando. Fiquei em 11° pra mim, foi uma superação agradeço de coração mesmo se eu tivesse feito pra Amazônia eu teria tirado em primeiro lugar, mas vou aguardar que falaram que vão chamar. Muito obrigada."
+        </h5>
+        <p>
+          <Bootstrap(Image)
+            alt="Glaucia"
+            fluid={true}
+            roundedCircle={true}
+            src=""
+          />
+        </p>
+        <span>
+          Glaucia Medeiros, Acre
+        </span>
+      </Col>
+      <Col>
+        <h5>
+          "Eu estudava sem foco, com pouca concentração e desmotivado. Além de muito disperso pois não tinha um plano de estudos. Depois de iniciar a consultoria essas dificuldades desapareceram pois criamos uma agenda de estudos e analisamos as estatísticas dos exames anteriores. Daí cresceu bastante a minha confiança e passei a ter uma melhor disciplina com meus horários de estudo."
+        </h5>
+        <p>
+          <Bootstrap(Image)
+            alt="Rene"
+            fluid={true}
+            roundedCircle={true}
+            src=""
+          />
+        </p>
+        <span>
+          Rene Lacerda, Rio Grande do Sul
+        </span>
+      </Col>
+    </Bootstrap(Row)>
+  </Container>
+</div>
+`;
