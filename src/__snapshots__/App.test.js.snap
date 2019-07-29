@@ -20,6 +20,7 @@ exports[`agende snapshot renderered correctly 1`] = `
   <Bootstrap(Row)>
     <Col
       className="text-center"
+      sm={true}
     >
       <h2
         className="text-center padding-top-80"
@@ -33,7 +34,9 @@ exports[`agende snapshot renderered correctly 1`] = `
       </p>
       <ButtonAgendeSessao />
     </Col>
-    <Col>
+    <Col
+      sm={true}
+    >
       <Bootstrap(Image)
         alt="Skype"
         fluid={true}
@@ -54,7 +57,9 @@ exports[`apresentacao snapshot renderered correctly 1`] = `
     fluid={false}
   >
     <Bootstrap(Row)>
-      <Col>
+      <Col
+        sm={true}
+      >
         <Bootstrap(Image)
           alt="Diana Sette"
           fluid={true}
@@ -160,7 +165,9 @@ exports[`fazemos snapshot renderered correctly 1`] = `
     fluid={false}
   >
     <Bootstrap(Row)>
-      <Col>
+      <Col
+        sm={true}
+      >
         <Card
           body={false}
         >
@@ -181,7 +188,9 @@ exports[`fazemos snapshot renderered correctly 1`] = `
           </CardBody>
         </Card>
       </Col>
-      <Col>
+      <Col
+        sm={true}
+      >
         <Card
           body={false}
         >
@@ -202,7 +211,9 @@ exports[`fazemos snapshot renderered correctly 1`] = `
           </CardBody>
         </Card>
       </Col>
-      <Col>
+      <Col
+        sm={true}
+      >
         <Card
           body={false}
         >
@@ -232,22 +243,11 @@ exports[`fazemos snapshot renderered correctly 1`] = `
 
 exports[`footer snapshot renderered correctly 1`] = `
 <div
-  className="padding-top-80 text-white background-dark padding-bottom-40"
+  className="padding-top-40 text-white background-dark padding-bottom-40"
 >
   <Container
     fluid={false}
   >
-    <Bootstrap(Row)>
-      <Col>
-        Facebook
-      </Col>
-      <Col>
-        Instagram
-      </Col>
-      <Col>
-        Youtube
-      </Col>
-    </Bootstrap(Row)>
     <Bootstrap(Row)
       className="padding-top-40"
     >
@@ -367,6 +367,7 @@ exports[`metodologia snapshot renderered correctly 1`] = `
     <Bootstrap(Row)>
       <Col
         className="text-center"
+        sm={true}
       >
         <FontAwesomeIcon
           border={false}
@@ -410,6 +411,7 @@ exports[`metodologia snapshot renderered correctly 1`] = `
       </Col>
       <Col
         className="text-center"
+        sm={true}
       >
         <FontAwesomeIcon
           border={false}
@@ -453,6 +455,7 @@ exports[`metodologia snapshot renderered correctly 1`] = `
       </Col>
       <Col
         className="text-center"
+        sm={true}
       >
         <FontAwesomeIcon
           border={false}
@@ -498,6 +501,7 @@ exports[`metodologia snapshot renderered correctly 1`] = `
     <Bootstrap(Row)>
       <Col
         className="text-center"
+        sm={true}
       >
         <FontAwesomeIcon
           border={false}
@@ -541,6 +545,7 @@ exports[`metodologia snapshot renderered correctly 1`] = `
       </Col>
       <Col
         className="text-center"
+        sm={true}
       >
         <FontAwesomeIcon
           border={false}
@@ -584,6 +589,7 @@ exports[`metodologia snapshot renderered correctly 1`] = `
       </Col>
       <Col
         className="text-center"
+        sm={true}
       >
         <FontAwesomeIcon
           border={false}
@@ -671,7 +677,9 @@ exports[`testimonials snapshot renderered correctly 1`] = `
     fluid={false}
   >
     <Bootstrap(Row)>
-      <Col>
+      <Col
+        sm={true}
+      >
         <h5>
           "Quero gradecer você pelo incentivo que me deste para concurso do INSS, me superei em português que era o meu calo rsrsr. Das 14 questões acertei 10 errei 1 e deixei 3 em brando. Fiquei em 11° pra mim, foi uma superação agradeço de coração mesmo se eu tivesse feito pra Amazônia eu teria tirado em primeiro lugar, mas vou aguardar que falaram que vão chamar. Muito obrigada."
         </h5>
@@ -687,7 +695,9 @@ exports[`testimonials snapshot renderered correctly 1`] = `
           Glaucia Medeiros, Acre
         </span>
       </Col>
-      <Col>
+      <Col
+        sm={true}
+      >
         <h5>
           "Eu estudava sem foco, com pouca concentração e desmotivado. Além de muito disperso pois não tinha um plano de estudos. Depois de iniciar a consultoria essas dificuldades desapareceram pois criamos uma agenda de estudos e analisamos as estatísticas dos exames anteriores. Daí cresceu bastante a minha confiança e passei a ter uma melhor disciplina com meus horários de estudo."
         </h5>
