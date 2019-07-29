@@ -23,7 +23,7 @@ export default class Metodologia extends Component {
         <h3>Metodologia utilizada no processo:</h3>
         <Container className="padding-top-80">
           <Row>
-            <Col className="text-center">
+            <Col sm className="text-center">
               <FontAwesomeIcon icon={faBookOpen} color="red" size="4x" />
               <h2 className="text-center">Criação das Suas Metas</h2>
               <p>
@@ -33,7 +33,7 @@ export default class Metodologia extends Component {
                 atenção e o seu objetivo aparecerão.
               </p>
             </Col>
-            <Col className="text-center">
+            <Col sm className="text-center">
               <FontAwesomeIcon icon={faCalendarDay} color="red" size="4x" />
               <h2 className="text-center">
                 Criação do Seu Cronograma de Estudos
@@ -44,7 +44,7 @@ export default class Metodologia extends Component {
                 desviam do seu caminho.
               </p>
             </Col>
-            <Col className="text-center">
+            <Col sm className="text-center">
               <FontAwesomeIcon icon={faUserCheck} color="red" size="4x" />
               <h2 className="text-center">Acompanhamento Individualizado</h2>
               <p>
@@ -57,7 +57,7 @@ export default class Metodologia extends Component {
             </Col>
           </Row>
           <Row>
-            <Col className="text-center">
+            <Col sm className="text-center">
               <FontAwesomeIcon icon={faTachometerAlt} color="red" size="4x" />
               <h2 className="text-center">Monitore Sua Performance</h2>
               <p>
@@ -66,7 +66,7 @@ export default class Metodologia extends Component {
                 excelência no seu aproveitamento.
               </p>
             </Col>
-            <Col className="text-center">
+            <Col sm className="text-center">
               <FontAwesomeIcon icon={faTrophy} color="red" size="4x" />
               <h2 className="text-center">Mais Motivação e Confiança</h2>
               <p>
@@ -76,7 +76,7 @@ export default class Metodologia extends Component {
                 Tranquilidade e confiança são os dois objetivos que atingiremos.
               </p>
             </Col>
-            <Col className="text-center">
+            <Col sm className="text-center">
               <FontAwesomeIcon icon={faBullseye} color="red" size="4x" />
               <h2 className="text-center">Preparação Objetiva</h2>
               <p>

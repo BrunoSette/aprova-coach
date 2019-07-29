@@ -15,7 +15,7 @@ export default class Testimonials extends Component {
         </h2>
         <Container className="padding-top-80 text-center">
           <Row>
-            <Col>
+            <Col sm>
               <h5>
                 "Quero gradecer você pelo incentivo que me deste para concurso
                 do INSS, me superei em português que era o meu calo rsrsr. Das
@@ -29,7 +29,7 @@ export default class Testimonials extends Component {
               </p>
               <span>Glaucia Medeiros, Acre</span>
             </Col>
-            <Col>
+            <Col sm>
               <h5>
                 "Eu estudava sem foco, com pouca concentração e desmotivado.
                 Além de muito disperso pois não tinha um plano de estudos.

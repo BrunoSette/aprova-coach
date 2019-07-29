@@ -6,13 +6,8 @@ import logo from '../../logo.png';
 
 function Footer() {
   return (
-    <div className="padding-top-80 text-white background-dark padding-bottom-40">
+    <div className="padding-top-40 text-white background-dark padding-bottom-40">
       <Container>
-        <Row>
-          <Col>Facebook</Col>
-          <Col>Instagram</Col>
-          <Col>Youtube</Col>
-        </Row>
         <Row className="padding-top-40">
           <Col className="text-center">
             <img

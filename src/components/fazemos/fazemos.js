@@ -19,7 +19,7 @@ export default class Fazemos extends Component {
         <h3>Estarei ao seu lado te orientando em como ser aprovado...</h3>
         <Container className="padding-top-80">
           <Row>
-            <Col>
+            <Col sm>
               <Card>
                 <Card.Img variant="top" src={img1} alt="sucesso" />
                 <Card.Body>
@@ -38,7 +38,7 @@ export default class Fazemos extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col sm>
               <Card>
                 <Card.Img variant="top" src={img2} alt="Mulher" />
                 <Card.Body>
@@ -55,7 +55,7 @@ export default class Fazemos extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col sm>
               <Card>
                 <Card.Img variant="top" src={img3} alt="caneta" />
                 <Card.Body className="text-center">

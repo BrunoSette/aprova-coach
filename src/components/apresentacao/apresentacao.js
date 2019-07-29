@@ -11,7 +11,7 @@ export default class Apresentacao extends Component {
       <div id="quemsou" className="background-gray padding-bottom-40">
         <Container className="padding-top-80">
           <Row>
-            <Col>
+            <Col sm>
               <Image src={Diana} alt="Diana Sette" fluid />
             </Col>
             <Col>

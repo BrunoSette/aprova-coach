@@ -11,7 +11,7 @@ export default class Agende extends Component {
     return (
       <Container className="padding-top-80">
         <Row>
-          <Col className="text-center">
+          <Col sm className="text-center">
             <h2 className="text-center padding-top-80">
               Agende sua primeira sessão experimental de Coaching Grátis Agora!
             </h2>
@@ -21,7 +21,7 @@ export default class Agende extends Component {
             </p>
             <ButtonAgendeSessao />
           </Col>
-          <Col>
+          <Col sm>
             <Image src={Skype} alt="Skype" fluid />
           </Col>
         </Row>
