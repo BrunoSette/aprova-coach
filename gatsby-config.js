@@ -14,10 +14,12 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: "UA-144564616-1",
-        head: true
+        // your google analytics tracking id
+        trackingId: `UA-144564616-1`,
+        // Puts tracking script in the head instead of the body
+        head: false
       }
     }
   ]
