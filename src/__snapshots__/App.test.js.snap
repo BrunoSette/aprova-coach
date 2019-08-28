@@ -2,13 +2,16 @@
 
 exports[`agendamento snapshot renderered correctly 1`] = `
 <div>
-  <iframe
-    allowtransparency="true"
-    height="1000px"
-    src="https://dianasette.youcanbook.me/"
-    title="youcanbookme"
-    width="100%"
-  />
+  <ContextConsumer>
+    <Component />
+    <iframe
+      allowtransparency="true"
+      height="1000px"
+      src="https://dianasette.youcanbook.me/"
+      title="youcanbookme"
+      width="100%"
+    />
+  </ContextConsumer>
 </div>
 `;
 
