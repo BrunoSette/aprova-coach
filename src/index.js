@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Agendamento from './pages/agendamento';
+import Obrigado from './pages/obrigado';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact={true} component={App} />
       <Route path="/agendamento" component={Agendamento} />
+      <Route path="/obrigado" component={Obrigado} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
