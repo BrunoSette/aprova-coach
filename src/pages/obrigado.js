@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Logo from '../../src/logo.png';
 import './obrigado.css';
+import { Mixpanel } from '../Mixpanel';
 
 export default class Agendamento extends Component {
   render() {
+    Mixpanel.track('View Obrigado Page');
     return (
       <div className="padding-top-40 padding-bottom-20">
         <img className="padding-bottom-20" src={Logo} alt="Logo" />

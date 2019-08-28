@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import MixpanelConsumer from 'react-mixpanel';
+import { Mixpanel } from '../Mixpanel';
 
 export default class Agendamento extends Component {
   render() {
+    Mixpanel.track('View Agendamento Page');
     return (
       <div>
-        <MixpanelConsumer>
-          {mixpanel => mixpanel.track('View Agendamento Page')}
-
-          <iframe
-            title="youcanbookme"
-            src="https://dianasette.youcanbook.me/"
-            width="100%"
-            height="1000px"
-            allowtransparency="true"
-          ></iframe>
-        </MixpanelConsumer>
+        <iframe
+          title="youcanbookme"
+          src="https://dianasette.youcanbook.me/"
+          width="100%"
+          height="1000px"
+          allowtransparency="true"
+        ></iframe>
       </div>
     );
   }
