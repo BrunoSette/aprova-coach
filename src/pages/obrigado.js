@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Logo from '../../src/logo.png';
 import './obrigado.css';
 
 export default class Agendamento extends Component {
   render() {
     return (
       <div className="padding-top-40 padding-bottom-20">
+        <img className="padding-bottom-20" src={Logo} alt="Logo" />
+
         <h1> Agendamento Confirmado!</h1>
         <h4 className="padding-top-40 padding-bottom-20">
           Na sessão conversaremos sobre a metodologia que utilizamos e buscarei

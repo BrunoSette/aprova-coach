@@ -1,11 +1,16 @@
 h4 {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 44px;
   font-weight: 250;
   padding-left: 50px;
   padding-right: 50px;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .background-gray {
   background-color: #f6f8fa;
 }
