@@ -8,7 +8,7 @@ import Agendamento from './pages/agendamento';
 import Obrigado from './pages/obrigado';
 import * as serviceWorker from './serviceWorker';
 import mixpanel from 'mixpanel-browser';
-import { MixpanelProvider, MixpanelConsumer } from 'react-mixpanel';
+import { MixpanelProvider } from 'react-mixpanel';
 
 mixpanel.init('ed2e51f63610f4376ac1cb3aa056995d');
 
