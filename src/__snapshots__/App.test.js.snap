@@ -2,16 +2,13 @@
 
 exports[`agendamento snapshot renderered correctly 1`] = `
 <div>
-  <ContextConsumer>
-    <Component />
-    <iframe
-      allowtransparency="true"
-      height="1000px"
-      src="https://dianasette.youcanbook.me/"
-      title="youcanbookme"
-      width="100%"
-    />
-  </ContextConsumer>
+  <iframe
+    allowtransparency="true"
+    height="1000px"
+    src="https://dianasette.youcanbook.me/"
+    title="youcanbookme"
+    width="100%"
+  />
 </div>
 `;
 
@@ -142,6 +139,7 @@ exports[`contact snapshot renderered correctly 1`] = `
     <Bootstrap(Image)
       alt="Whatsapp"
       fluid={true}
+      onClick={[Function]}
       src=""
     />
   </a>
@@ -653,11 +651,28 @@ exports[`testimonial videos snapshot renderered correctly 1`] = `
         <div
           className="embed-responsive embed-responsive-16by9"
         >
-          <iframe
-            allowfullscreen={true}
-            class="embed-responsive-item"
-            src="https://www.youtube.com/embed/videoseries?list=PLPScevBERCaSGDdV7xdgecdDIu4YlVp4I&controls=0&showinfo=0"
-            title="youtube"
+          <YouTube
+            className={null}
+            containerClassName=""
+            id={null}
+            onEnd={[Function]}
+            onError={[Function]}
+            onPause={[Function]}
+            onPlay={[Function]}
+            onPlaybackQualityChange={[Function]}
+            onPlaybackRateChange={[Function]}
+            onReady={[Function]}
+            onStateChange={[Function]}
+            opts={
+              Object {
+                "height": "390",
+                "playerVars": Object {
+                  "autoplay": 1,
+                },
+                "width": "640",
+              }
+            }
+            videoId="fjiLr-aZw9w"
           />
         </div>
       </Col>

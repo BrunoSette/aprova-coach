@@ -4,7 +4,6 @@ import WhatsappImage from '../../assets/images/whatsapp-button.png';
 import Image from 'react-bootstrap/Image';
 import { Mixpanel } from '../../Mixpanel';
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-144564616-1');
 
 export default class Contact extends Component {
   render() {
