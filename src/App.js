@@ -11,7 +11,6 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import { Mixpanel } from '../src/Mixpanel';
 import ReactGA from 'react-ga';
-jest.mock('react-ga');
 ReactGA.initialize('UA-144564616-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
