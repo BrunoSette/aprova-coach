@@ -12,7 +12,7 @@ function Header() {
       collapseOnSelect
       expand="lg"
       bg="light"
-      sticky="top"
+      // sticky="top"
       variant="light"
     >
       <Navbar.Brand href="/">
@@ -28,8 +28,8 @@ function Header() {
             <Nav.Link href="#depoimentos">Depoimentos</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
           </Nav>
-          <ButtonAgendeSessao />
         </Navbar.Collapse>
+        <ButtonAgendeSessao />
       </Container>
     </Navbar>
   );
