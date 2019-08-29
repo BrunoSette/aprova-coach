@@ -668,6 +668,7 @@ exports[`testimonial videos snapshot renderered correctly 1`] = `
                 "height": "390",
                 "playerVars": Object {
                   "autoplay": 1,
+                  "origin": "http://www.aprovacoach.com.br",
                 },
                 "width": "640",
               }
