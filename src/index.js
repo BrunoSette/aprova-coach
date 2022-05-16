@@ -4,14 +4,12 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Obrigado from './pages/obrigado';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact={true} component={App} />
-      <Route path="/obrigado" component={Obrigado} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
