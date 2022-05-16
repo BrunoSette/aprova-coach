@@ -31,9 +31,7 @@ export default class Apresentacao extends Component {
               <p>
                 Professional Coach e Consultora, vem ajudando milhares de
                 pessoas a serem aprovadas em Concursos Públicos e no Exame da
-                OAB nos últimos 10 anos. Responsável pela área de produtividade
-                nos estudos das empresas: ProvasdaOAB, ProvasDirecionadas e
-                Estudando Online.
+                OAB nos últimos 10 anos.
               </p>
             </Col>
           </Row>

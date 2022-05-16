@@ -6,7 +6,7 @@ export default class Banner extends Component {
     return (
       <div>
         <div className="banner">
-          <h1 className="header">Sua Coach Para Concursos</h1>
+          <h1 className="header">Sua Mentora para Provas e Concursos</h1>
           <h4 className="subheader">Maximize o Resultado dos Seus Estudos</h4>
         </div>
       </div>
