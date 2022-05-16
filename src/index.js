@@ -12,7 +12,6 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact={true} component={App} />
-      <Route path="/agendamento" component={Agendamento} />
       <Route path="/obrigado" component={Obrigado} />
     </Switch>
   </BrowserRouter>,

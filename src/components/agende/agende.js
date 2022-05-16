@@ -13,7 +13,7 @@ export default class Agende extends Component {
         <Row>
           <Col sm className="text-center">
             <h2 className="text-center padding-top-80">
-              Agende sua primeira sessão experimental de Coaching Grátis Agora!
+              Agende sua primeira sessão experimental de Consultoria Grátis Agora!
             </h2>
             <p className="text-center">
               Agende uma primeira sessão agora para nos conhecermos e juntos
