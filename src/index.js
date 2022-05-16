@@ -4,7 +4,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Agendamento from './pages/agendamento';
 import Obrigado from './pages/obrigado';
 import * as serviceWorker from './serviceWorker';
 
